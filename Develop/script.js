@@ -1,10 +1,11 @@
-let now = moment()
-console.log(now.format("MMMM DD YYYY h:mmA"));
 
-var currentTime = now.format("MMMM DD YYYY h:mmA");
-$("currentDay").html(currentTime);
+$(document).ready(function () {
+    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm: a"));
+    $(".saveBtn").on("click", function () {
+        console.log(this);
+        var text = $(this).siblings(".description").val(); 
+        var time = $(this).parent().attr("id"); 
 
-$(".list-group").on("click", "p", function() {
-    console.log(this);
-  });
-
+        localStorage.setItem(time, text);
+    })
+})
