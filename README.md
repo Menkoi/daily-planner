@@ -15,4 +15,6 @@ https://menkoi.github.io/daily-planner/
 
 3. When a box is red that means that is the current time, if grey then that is an old task
 
+4. Once you type in a task click the blue icon on the right to save your task 
+
 <img src="https://i.imgur.com/YMaT2ME.png" /></a>
