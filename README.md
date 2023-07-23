@@ -20,11 +20,3 @@ https://menkoi.github.io/daily-planner/
 4. Once you type in a task click the blue icon on the right to save your task 
 
 <img src="https://i.imgur.com/YMaT2ME.png" /></a>
-
- ## Questions? Contact me
-
-  - Menkoi
-
-  - https://github.com/Menkoi
-
-  - celaeon@gmail.com
